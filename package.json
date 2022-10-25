@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "build": "webpack",
     "dev": "nodemon app.js"
   },
   "keywords": [],
@@ -18,6 +17,7 @@
     "mongoose": "^6.5.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "webpack-cli": "^4.10.0"
   }
 }
